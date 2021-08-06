@@ -9,14 +9,22 @@
 .nav-link {
   font-family: 'Marck Script', cursive;
   font-size: 1.6rem;
+  text-align: left;
+/* padding-left: 10rem; */
+}
+
+#nav {
+    color: #6B591D;
 }
 
 #navbarSupportedContent {
   padding-right: 3rem;
+  padding-left: 6rem;
+
 }
 
 #tatafurniture {
-  color: rgba(0, 0, 0, .5);
+  color: #6B591D;
   font-size: 1.6rem;
 }
 
@@ -39,7 +47,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: rgba(0, 0, 0, .5);
+  color: #6B591D;
 }
 
 .body-head {
@@ -72,7 +80,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: rgba(0, 0, 0, .5);
+  color: #6B591D;
 }
 
 .brand {
@@ -108,7 +116,7 @@
   background-position: center;
   background-size: cover;
   margin-top: 0px;
-  color: rgba(0, 0, 0, .5);
+  color: #6B591D;
   background-color: #F0F0F0;
 }
 
@@ -133,6 +141,7 @@
   font-family: 'Lora', serif;
   font-size: 20px;
   text-align: left;
+
 }
 
 /* carousel section */
@@ -148,14 +157,20 @@
   background-size: cover;
   padding-bottom: 6rem;
   padding-top: 6rem;
-  color: rgba(0, 0, 0, .5);
+    color: #6B591D;
 }
-
 .carousel-item {
   text-align: center;
   align-content: center;
 }
+.carouselsection {
+  margin-top: 0px;
 
+}
+
+#latest {
+  margin-top: 0px;
+}
 .image6 {
   /* padding-left: 37rem; */
 }
@@ -210,7 +225,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: rgba(0, 0, 0, .5);
+color: #6B591D;
 }
 
 .review {
@@ -254,7 +269,7 @@
   padding-top: 1rem;
   padding-bottom: 19rem;
   text-align: center;
-  color: rgba(0, 0, 0, .5);
+    color: #6B591D;
 }
 
 .contact {
@@ -282,5 +297,5 @@
   background-color: #C8C2BC;
   font-family: 'Marck Script', cursive;
   font-size: 1.3rem;
-  color: rgba(0, 0, 0, .5);
+  color: #6B591D;
 }
