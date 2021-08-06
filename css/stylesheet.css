@@ -1,4 +1,5 @@
 /* navbar section */
+
 .navbar-brand {
   padding-left: 3rem;
   font-family: 'Marck Script', cursive;
@@ -19,7 +20,9 @@
   font-size: 1.6rem;
 }
 
+
 /* section1 main title  */
+
 .section1 {
   font-size: 20px;
   font-weight: bold;
@@ -40,7 +43,7 @@
 }
 
 .body-head {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .main-head {
@@ -54,7 +57,13 @@
   font-family: 'Marck Script', cursive;
 }
 
+.container-fluid {
+  text-align: center;
+  align-content: center;
+}
+
 /* section2 about the brand */
+
 .section2 {
   background-image: url("https://media.istockphoto.com/photos/interior-with-armchair-and-coffee-table-3d-rendering-picture-id1158575634?k=6&m=1158575634&s=170667a&w=0&h=NKofcNb7rJIMrWnqUV0w_NtfAmxzodDbEEV4SvwdwoA=");
   /* https://www.viewmastercms.com/assets/VMAPP_Universal_Furniture/image/ic/orig/U033839_RM_ALT.jpg */
@@ -76,17 +85,19 @@
 
 .brandpar {
   margin-bottom: 0px;
-  padding-bottom: 20rem;
-  padding-left: 8rem;
-  padding-right: 8rem
-}
+  padding-bottom: 23rem;
+  padding-left: 6rem;
+  padding-right: 6rem
+  }
 
 .brandpar {
   font-family: 'Lora', serif;
   font-size: 20px;
+  text-align: left;
 }
 
 /* section3 about the products */
+
 .section3 {
   padding-bottom: 6rem;
   padding-right: 6rem;
@@ -112,7 +123,7 @@
 
 .head1 {
   padding-top: 1rem;
-  padding-left: 6rem;
+  /* padding-left: 6rem; */
   font-family: 'Marck Script', cursive;
   font-size: 2rem;
 }
@@ -121,9 +132,11 @@
   padding-top: 1rem;
   font-family: 'Lora', serif;
   font-size: 20px;
+  text-align: left;
 }
 
 /* carousel section */
+
 .carouselsection {
   /* background-image: url("https://b.rgbimg.com/users/x/xy/xymonau/600/p6J7vsc.jpg"); */
   /* background-image: url("https://st.depositphotos.com/1005680/3801/v/600/depositphotos_38012121-stock-illustration-vector-background-with-blue-flowers.jpg"); */
@@ -134,23 +147,28 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 6rem;
-  padding-top: 3rem;
+  padding-top: 6rem;
   color: rgba(0, 0, 0, .5);
 }
 
+.carousel-item {
+  text-align: center;
+  align-content: center;
+}
+
 .image6 {
-  padding-left: 37rem;
+  /* padding-left: 37rem; */
 }
 
 .carouselpar {
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 1rem;
   font-family: 'Marck Script', cursive;
   font-size: 1.3rem;
 }
 
 .collection {
-  text-align: center;
+  /* text-align: center; */
   font-family: 'Marck Script', cursive;
   font-size: 2.3rem;
 }
@@ -175,11 +193,14 @@
 /* background-color: #c593d8; */
 /* border-radius: 50%; */
 /* } */
+
+
 /* section4 customer reviews */
 
 .section4 {
-  padding-left: 13rem;
-  padding-bottom: 10rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-bottom: 13rem;
   background-image: url("https://perthgrout.files.wordpress.com/2019/11/interior1.jpg");
   /* https://perthgrout.files.wordpress.com/2019/11/interior1.jpg */
   /* https://homedecorbliss.com/wp-content/uploads/2021/03/Rattan-chairs-and-an-end-table-on-the-middle-inside-a-white-themed-living-room-1024x1024.jpg */
@@ -201,18 +222,19 @@
 }
 
 .head4 {
-  padding-left: 3rem;
   font-family: 'Marck Script', cursive;
   font-size: 2rem;
 }
 
 .p4 {
-  padding-right: 10rem;
+  /* padding-right: 10rem; */
+  text-align: left;
   font-family: 'Lora', serif;
   font-size: 20px;
 }
 
 /* section5 contact us */
+
 .section5 {
   background-image: url("https://redlotusletter.com/wp-content/uploads/2011/03/home-office-white.jpeg");
   /* background-image: url("https://hw-media.herworld.com/public/2020/03/stylish-ways-spruce-up-home-office-space.jpg"); */
@@ -230,7 +252,7 @@
   background-size: cover;
   padding-bottom: 3rem;
   padding-top: 1rem;
-  padding-bottom: 16rem;
+  padding-bottom: 19rem;
   text-align: center;
   color: rgba(0, 0, 0, .5);
 }
@@ -252,8 +274,9 @@
 }
 
 /* section6 footer */
+
 .section6 {
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 1rem;
   padding-top: 2rem;
   background-color: #C8C2BC;
